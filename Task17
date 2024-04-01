@@ -1,0 +1,39 @@
+class BI:
+    def handler(self):
+        return "Big"
+
+class M:
+    def handler(self):
+        return "Men"
+
+class C:
+    def handler(self):
+        return "Cat"
+
+class T:
+    def handler(self):
+        return "Bitter"
+
+class E:
+    def handler(self):
+        return "Women"
+
+class R:
+    def handler(self):
+        pass
+
+class N:
+    def handler(self):
+        pass
+
+bi = BI()
+m = M()
+c = C()
+t = T()
+e = E()
+r = R()
+n = N()
+
+# Виклик обробників для класів "R" і "N"
+print(r.handler())  # Виведе: None
+print(n.handler())  # Виведе:
